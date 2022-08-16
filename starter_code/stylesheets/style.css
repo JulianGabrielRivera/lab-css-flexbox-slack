@@ -5,3 +5,149 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  background-color: white;
+}
+nav ul {
+  display: none;
+}
+nav img {
+  width: 100px;
+}
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+}
+.hamburger {
+  background-color: gray;
+  line-height: 10px;
+  margin: 2.2px;
+  width: 22px;
+  height: 1px;
+  border: 1px solid gray;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  padding-top: 10px;
+  padding-right: 30px;
+  width: 280px;
+}
+header p {
+  max-width: 280px;
+}
+input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 40px;
+  width: 280px;
+  padding-left: 10px;
+}
+header button {
+  margin-top: 15px;
+  height: 40px;
+  width: 280px;
+  background-color: #192592;
+  color: white;
+  border-radius: 2px;
+}
+header img {
+  order: 1;
+  max-width: 300px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f3f4;
+  align-items: center;
+}
+main div {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+main button {
+  height: 40px;
+  width: 280px;
+  background-color: white;
+  color: #192592;
+  border: 1px solid #192592;
+  font-weight: bold;
+}
+main img {
+  margin-top: 50px;
+  max-width: 200px;
+}
+footer .last-footerdiv {
+  background-color: #f4f3f4;
+}
+
+footer .bottom-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  text-align: center;
+}
+footer .bottom-ul li {
+  display: flex;
+  margin-top: 15px;
+  padding-left: 30px;
+  align-items: center;
+  list-style-type: none;
+}
+
+footer ul {
+  padding: 0;
+  width: 49%;
+}
+
+footer .last-ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+footer .last-ul li {
+  list-style-type: none;
+}
+footer .murica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+footer .murica img {
+  margin-right: 10px;
+}
+
+footer .murica i {
+  margin-left: 10px;
+}
+footer .social-media {
+  display: flex;
+  justify-content: center;
+}
+footer .social-media i {
+  margin-right: 20px;
+  margin-top: 30px;
+}
